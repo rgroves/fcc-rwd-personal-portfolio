@@ -4,3 +4,24 @@
   margin: 0;
   padding: 0;
 }
+
+html {
+  height: 100vh;
+}
+
+#navbar {
+  position: sticky;
+  top: 0;
+}
+
+#welcome-section {
+  height: 100vh;
+}
+
+#projects {
+  height: 100vh;
+}
+
+#contact {
+  height: 100vh;
+}
