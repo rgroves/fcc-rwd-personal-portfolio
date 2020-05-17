@@ -1,3 +1,7 @@
+:root {
+  --navbar-height: 3.25em;
+}
+
 /* Generic Minimal Reset */
 * {
   box-sizing: border-box;
@@ -9,9 +13,29 @@ html {
   height: 100vh;
 }
 
+section {
+  padding-top: var(--navbar-height);
+}
+
 #navbar {
   position: sticky;
   top: 0;
+  display: flex;
+  justify-content: flex-end;
+  height: var(--navbar-height);
+  padding: 0 1em;
+}
+
+#navbar > ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 75%;
+}
+
+#navbar > ul li {
+  list-style: none;
+  text-transform: uppercase;
 }
 
 #welcome-section {
