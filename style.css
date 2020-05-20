@@ -24,6 +24,7 @@ section {
   justify-content: flex-end;
   height: var(--navbar-height);
   padding: 0 1em;
+  z-index: 10;
 }
 
 #navbar > ul {
@@ -40,6 +41,8 @@ section {
 
 #welcome-section {
   height: 100vh;
+  position: relative;
+  top: -3.25em;
 }
 
 #projects {
