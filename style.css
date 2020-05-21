@@ -1,5 +1,7 @@
 :root {
   --navbar-height: 3.25em;
+  --dark-primary: #0d052b;
+  --light-text: #fff;
 }
 
 /* Generic Minimal Reset */
@@ -25,11 +27,12 @@ section {
   height: var(--navbar-height);
   padding: 0 1em;
   z-index: 10;
+  background-color: var(--dark-primary);
 }
 
 #navbar > ul {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
   width: 75%;
 }
@@ -37,6 +40,20 @@ section {
 #navbar > ul li {
   list-style: none;
   text-transform: uppercase;
+  font-family: "Prompt", sans-serif;
+  margin-left: 1.2em;
+}
+
+.navlink {
+  text-decoration: none;
+  color: var(--light-text);
+}
+
+.navlink:link,
+.navlink:visited,
+.navlink:hover,
+.navlink:active {
+  color: var(--light-text);
 }
 
 #welcome-section {
