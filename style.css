@@ -41,7 +41,10 @@ section {
   list-style: none;
   text-transform: uppercase;
   font-family: "Prompt", sans-serif;
-  margin-left: 1.2em;
+  padding-left: 1em;
+  display: flex;
+  align-items: center;
+  height: 100%;
 }
 
 .navlink {
