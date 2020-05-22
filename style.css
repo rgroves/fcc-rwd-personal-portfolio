@@ -16,6 +16,11 @@ html {
   font-family: "Montserrat", sans-serif;
 }
 
+h1,
+h2 {
+  font-family: "Prompt", sans-serif;
+}
+
 section {
   padding-top: var(--navbar-height);
 }
