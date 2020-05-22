@@ -1,7 +1,9 @@
 :root {
   --navbar-height: 3.25em;
   --dark-primary: #0d052b;
-  --light-text: #fff;
+  --light-text: #eba702;
+  --light-link: #b0c4de;
+  --light-link-visited: #a8a9ad;
 }
 
 /* Generic Minimal Reset */
@@ -21,7 +23,21 @@ html {
   /* Set border-box on root element (children will inherit). Elements needing content-box will have to override. */
   box-sizing: border-box;
   height: 100vh;
+}
+
+body {
   font-family: "Montserrat", sans-serif;
+  background: var(--dark-primary);
+  color: var(--light-text);
+}
+
+a:link,
+a:hover,
+a:active {
+  color: var(--light-link);
+}
+a:visited {
+  color: var(--light-link-visited);
 }
 
 h1,
