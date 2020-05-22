@@ -6,12 +6,20 @@
 
 /* Generic Minimal Reset */
 * {
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
+*,
+*::before,
+*::after {
+  /* box-sizing does not inherit by default, make it so that it does. */
+  box-sizing: inherit;
+}
+
 html {
+  /* Set border-box on root element (children will inherit). Elements needing content-box will have to override. */
+  box-sizing: border-box;
   height: 100vh;
   font-family: "Montserrat", sans-serif;
 }
