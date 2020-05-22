@@ -29,8 +29,16 @@ h2 {
   font-family: "Prompt", sans-serif;
 }
 
+main {
+  margin-top: calc(-1 * var(--navbar-height));
+}
+
 section {
-  padding-top: var(--navbar-height);
+  padding: calc(var(--navbar-height)) 0;
+  min-height: calc(100vh - var(--navbar-height));
+}
+.welcome-card {
+  margin: auto 1.5em;
 }
 
 #navbar {
@@ -71,12 +79,6 @@ section {
 .navlink:hover,
 .navlink:active {
   color: var(--light-text);
-}
-
-#welcome-section {
-  height: 100vh;
-  position: relative;
-  top: -3.25em;
 }
 
 #projects {
