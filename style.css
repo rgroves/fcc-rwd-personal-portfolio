@@ -51,7 +51,7 @@ main {
 
 section {
   padding: var(--navbar-height) 0;
-  min-height: calc(100vh - var(--navbar-height));
+  height: 100vh;
 }
 .welcome-card {
   margin: auto 1.5em;
