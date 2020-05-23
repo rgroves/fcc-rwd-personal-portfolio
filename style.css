@@ -57,7 +57,7 @@ section {
   margin: auto 1.5em;
 }
 
-#navbar {
+.c-nav {
   position: sticky;
   top: 0;
   display: flex;
@@ -68,14 +68,14 @@ section {
   background-color: var(--dark-primary);
 }
 
-#navbar > ul {
+.c-nav__list {
   display: flex;
   justify-content: flex-end;
   align-items: center;
   width: 75%;
 }
 
-#navbar > ul li {
+.c-nav__list-item {
   list-style: none;
   text-transform: uppercase;
   font-family: "Prompt", sans-serif;
@@ -85,15 +85,15 @@ section {
   height: 100%;
 }
 
-.navlink {
+.c-nav__link {
   text-decoration: none;
   color: var(--light-text);
 }
 
-.navlink:link,
-.navlink:visited,
-.navlink:hover,
-.navlink:active {
+.c-nav__link:link,
+.c-nav__link:visited,
+.c-nav__link:hover,
+.c-nav__link:active {
   color: var(--light-text);
 }
 
