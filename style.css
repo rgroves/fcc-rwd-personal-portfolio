@@ -52,6 +52,15 @@ main {
 section {
   padding: var(--navbar-height) 0;
   height: 100vh;
+  background: linear-gradient(
+    to bottom,
+    var(--dark-primary),
+    35%,
+    #4b0908,
+    #6a0c0b,
+    var(--dark-primary),
+    var(--dark-primary)
+  );
 }
 
 /* START COMPONENT NAVIGATION */
