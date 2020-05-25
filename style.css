@@ -53,9 +53,8 @@ section {
   padding: var(--navbar-height) 0;
   height: 100vh;
 }
-.welcome-card {
-  margin: auto 1.5em;
-}
+
+/* START COMPONENT NAVIGATION */
 
 .c-nav {
   position: sticky;
@@ -96,6 +95,39 @@ section {
 .c-nav__link:active {
   color: var(--light-text);
 }
+
+/* END COMPONENT NAVIGATION */
+
+/* START COMPONENT WELCOME SECTION */
+
+.c-welcome-section {
+  padding: var(--navbar-height) 0;
+  height: 100vh;
+}
+
+.c-welcome-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  margin: auto 1.5em;
+}
+
+.c-welcome-card__title {
+  font-family: "Prompt", sans-serif;
+  text-shadow: 2px 2px 1px var(--dark-primary);
+}
+.c-welcome-card__primary-info {
+  margin: 1em 0 0 0;
+}
+.c-welcome-card__primary-info--standout {
+  text-shadow: 2px 2px 1px var(--dark-primary);
+}
+.c-welcome-card__secondary-info {
+  margin: 1em 0 0 0;
+}
+
+/* END COMPONENT WELCOME SECTION */
 
 #projects {
   height: 100vh;
