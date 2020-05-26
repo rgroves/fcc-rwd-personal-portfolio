@@ -51,7 +51,7 @@ main {
 
 section {
   padding: var(--navbar-height) 0;
-  height: 100vh;
+  min-height: 100vh;
   background: linear-gradient(
     to bottom,
     var(--dark-primary),
@@ -138,15 +138,7 @@ section {
 
 /* END COMPONENT WELCOME SECTION */
 
-#projects {
-  height: 100vh;
-}
-
 .c-project-tile__image {
   max-width: 100%;
   height: auto;
-}
-
-#contact {
-  height: 100vh;
 }
