@@ -142,6 +142,11 @@ section {
   height: 100vh;
 }
 
+.c-project-tile__image {
+  max-width: 100%;
+  height: auto;
+}
+
 #contact {
   height: 100vh;
 }
