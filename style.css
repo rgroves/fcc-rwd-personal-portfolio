@@ -68,7 +68,7 @@ section {
 
 /* START COMPONENT NAVIGATION */
 
-.c-nav {
+.nav {
   position: sticky;
   top: 0;
   display: flex;
@@ -79,14 +79,14 @@ section {
   background-color: var(--dark-primary);
 }
 
-.c-nav__list {
+.nav__list {
   display: flex;
   justify-content: flex-end;
   align-items: center;
   width: 75%;
 }
 
-.c-nav__list-item {
+.nav__list-item {
   list-style: none;
   text-transform: uppercase;
   font-family: "Prompt", sans-serif;
@@ -96,15 +96,15 @@ section {
   height: 100%;
 }
 
-.c-nav__link {
+.nav__link {
   text-decoration: none;
   color: var(--light-text);
 }
 
-.c-nav__link:link,
-.c-nav__link:visited,
-.c-nav__link:hover,
-.c-nav__link:active {
+.nav__link:link,
+.nav__link:visited,
+.nav__link:hover,
+.nav__link:active {
   color: var(--light-text);
 }
 
@@ -112,12 +112,12 @@ section {
 
 /* START COMPONENT WELCOME SECTION */
 
-.c-welcome-section {
+.welcome-section {
   padding: var(--navbar-height) 0;
   height: 100vh;
 }
 
-.c-welcome-card {
+.welcome-card {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -125,17 +125,17 @@ section {
   margin: auto 1.5em;
 }
 
-.c-welcome-card__title {
+.welcome-card__title {
   font-family: "Prompt", sans-serif;
   text-shadow: 2px 2px 1px var(--dark-primary);
 }
-.c-welcome-card__primary-info {
+.welcome-card__primary-info {
   margin: 1em 0 0 0;
 }
-.c-welcome-card__primary-info--standout {
+.welcome-card__primary-info--standout {
   text-shadow: 2px 2px 1px var(--dark-primary);
 }
-.c-welcome-card__secondary-info {
+.welcome-card__secondary-info {
   margin: 1em 0 0 0;
 }
 
