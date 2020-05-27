@@ -141,28 +141,36 @@ section {
 
 /* END COMPONENT WELCOME SECTION */
 
-/* START COMPONENT PROJECT TILE */
+/* START COMPONENT PROJECT SECTION */
+
+.projects-section__title {
+  text-align: center;
+  margin: 2em 0;
+}
+
 .project-grid {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
 
-.c-project-tile {
-  padding: 1em;
+.project-tile {
+  padding: 1em 2em;
   max-width: calc(var(--project-image-size) * 0.5);
 }
 
-.c-project-tile__title {
+.project-tile__title {
   background: #4b0908;
+  color: transparent;
   padding: 0.5em;
   text-align: center;
+  text-transform: uppercase;
   border: #4b0908 0.25em solid;
   border-radius: 1em 1em 0 0;
   box-shadow: 0px 0px 10px var(--light-accent-01);
 }
 
-.c-project-tile__image {
+.project-tile__image {
   max-width: 100%;
   height: auto;
   border: #4b0908 0.25em solid;
