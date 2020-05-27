@@ -66,7 +66,7 @@ section {
   );
 }
 
-/* START COMPONENT NAVIGATION */
+/* START NAVIGATION */
 
 .nav {
   position: sticky;
@@ -108,9 +108,9 @@ section {
   color: var(--light-text);
 }
 
-/* END COMPONENT NAVIGATION */
+/* END NAVIGATION */
 
-/* START COMPONENT WELCOME SECTION */
+/* START WELCOME SECTION */
 
 .welcome-section {
   padding: var(--navbar-height) 0;
@@ -139,9 +139,9 @@ section {
   margin: 1em 0 0 0;
 }
 
-/* END COMPONENT WELCOME SECTION */
+/* END WELCOME SECTION */
 
-/* START COMPONENT PROJECT SECTION */
+/* START PROJECT SECTION */
 
 .projects-section__title {
   text-align: center;
@@ -178,4 +178,4 @@ section {
   box-shadow: 0px 0px 10px var(--light-accent-01);
 }
 
-/* END COMPONENT PROJECT TILE */
+/* END PROJECT SECTION */
