@@ -25,6 +25,7 @@ html {
   /* Set border-box on root element (children will inherit). Elements needing content-box will have to override. */
   box-sizing: border-box;
   height: 100vh;
+  scroll-behavior: smooth;
 }
 
 body {
