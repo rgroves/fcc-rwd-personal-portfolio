@@ -179,3 +179,21 @@ section {
 }
 
 /* END PROJECT SECTION */
+
+/* START CONTACT SECTION */
+.contact-section__title {
+  text-align: center;
+  margin: 2em 0;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: space-around;
+}
+
+.contact-tile__icon {
+  font-size: 2em;
+  color: var(--light-text);
+  text-shadow: 0 0 25px rgba(255, 255, 255, 0.5);
+}
+/* END CONTACT SECTION */
