@@ -146,6 +146,7 @@ section {
 
 .projects-section__title {
   text-align: center;
+  text-transform: uppercase;
   margin: 2em 0;
 }
 
@@ -184,6 +185,7 @@ section {
 /* START CONTACT SECTION */
 .contact-section__title {
   text-align: center;
+  text-transform: uppercase;
   margin: 2em 0;
 }
 
