@@ -195,11 +195,16 @@ section {
 
 .contact-info {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
 }
 
+.contact-tile__link {
+  text-decoration: none;
+}
+
 .contact-tile__icon {
-  font-size: 2em;
+  font-size: 3em;
   color: var(--light-text);
   text-shadow: 0 0 25px rgba(255, 255, 255, 0.5);
 }
